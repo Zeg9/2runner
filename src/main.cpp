@@ -118,9 +118,8 @@ void startGame()
 				}
 				d.clear(32,32,32);
 				bfont.render(
-					"Ton score: " + tostring(score) + "\n"
-					"Tu as donc perdu " + tostring(score/120+1) + " minutes de ta vie !\n"
-					"Appuies sur Entrée pour rejouer !",
+					"Your score: " + tostring(score) + "\n"
+					"Press return to try again !",
 					randint(0,255),randint(0,255),randint(0,255),
 					d.getWidth()/2,d.getHeight()/2,ALIGN_CENTER,ALIGN_MIDDLE);
 				d.render();
